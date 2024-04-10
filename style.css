@@ -25,11 +25,19 @@ input {
     color: #6C7378;
 }
 
+input:hover {
+    color: #0544b5;
+}
+
 button {
     width: 100%;
     border: 1px solid;
     border-radius: 25px;
     padding: 3%;
+}
+
+button:hover {
+    border: 1px solid #0544b5;
 }
 
 a {
@@ -89,6 +97,10 @@ a {
     font-size: 1rem;
 }
 
+.blue:hover {
+    background-color: #0070E0;
+}
+
 .white {
     background-color: white;
     color: #001435;
@@ -96,6 +108,9 @@ a {
     font-size: 1rem;
 }
 
+.white:hover {
+    color: #0544b5;
+}
 
 
 .line-container {
@@ -173,5 +188,12 @@ footer {
         position: relative;
         bottom: 60px;
     }
+}
+
+@media only screen and (max-width: 1024px) {
+    #footer {
+        position: fixed;
+        bottom: 0;
+    }   
 }
   
